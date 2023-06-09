@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import Navbar from './components/Layouts/navbar'
 import Home from './components/Pages/Home'
 import About from './components/Pages/About'
 import Skills from './components/Pages/Skills'
 import Contact from './components/Pages/Contact'
+import Navbar from './components/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
